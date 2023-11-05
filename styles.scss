@@ -33,12 +33,14 @@ img{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
 }
 
 // Img background
 .img-bg{
     background-image: url(assets/bg1.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     z-index: 0;
 }
