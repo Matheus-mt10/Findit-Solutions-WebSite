@@ -30,12 +30,19 @@ img {
   justify-content: center;
 }
 
+.img-bg {
+  background-image: url(assets/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
 header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  padding: 10px 40px 10px 0px;
+  padding: 30px 40px 10px 0px;
 }
 header .button-header {
   display: flex;
@@ -99,6 +106,7 @@ menu .list-header a:hover {
   background-color: #0356E6;
   border: none;
   border-radius: 8px;
+  margin-bottom: 80px;
 }
 .hero-content .buttons a {
   text-decoration: none;

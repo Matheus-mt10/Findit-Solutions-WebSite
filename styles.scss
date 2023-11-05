@@ -35,7 +35,13 @@ img{
     justify-content: center;
 }
 
-
+// Img background
+.img-bg{
+    background-image: url(assets/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
 
 
 // --- HEADER --- HEADER --- HEADER --- HEADER --- HEADER --- HEADER --- HEADER
@@ -45,8 +51,8 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    padding: 10px 40px 10px 0px;
-
+    padding: 30px 40px 10px 0px;
+    
     .button-header{
         display: flex;
         align-items: center;
@@ -58,7 +64,6 @@ header{
         border: none;
         border-radius: 5px;
         
-
         a{
             text-decoration: none;
             color: white;
@@ -121,6 +126,7 @@ menu{
             background-color: $azul-principal;
             border: none;
             border-radius: 8px;
+            margin-bottom: 80px;
 
             a{
                 text-decoration: none;
